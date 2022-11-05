@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Montserrat UltraLight";
+    src: url("../../fonts/Montserrat/Montserrat\ Ultra\ Light.otf");
+  }
+
+@font-face {
+    font-family: "LATO Heavy";
+    src: url("../../fonts/LATO/Lato-Heavy.ttf");
+}
+
+.question{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-family: 'LATO Heavy';
+}
+
+p{
+    width: 59%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: rgba(152, 148, 148, 0.676);   
+    font-family: 'Montserrat UltraLight';
+    text-align: center; 
+    font-size: 18px;
+}
+
+/*
+====================================================================================================
+*/
+@font-face {
+    font-family: "LATO Semibold";
+    src: url("../../fonts/LATO/Lato-SemiBold.ttf");
+}
+
+.domain-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 58%;
+    border: 1px solid rgb(197, 197, 197);
+    margin-bottom:  50px;
+    margin-top: 50px;
+}
+
+
+.input{
+    font-weight: 700;
+    font-size: 18px;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'LATO Semibold';
+}
+
+.select{
+    text-align: center;
+    font-size: 18px;
+    margin-right: calc(1% + 2px);
+    font-family: 'Montserrat UltraLight';
+
+    width: 10%;
+    height: 100%;
+    border: 0;
+    box-sizing: border-box;
+    color:rgb(197, 197, 197);
+}
+
+::placeholder{
+    color:rgb(197, 197, 197);
+}
+
+.input:focus{
+    outline: none;
+}
+
+.select:focus{
+    outline: none;
+}
+
+.vert-line{
+    height: 70%;
+    width: 1px;
+    background-color: rgb(197, 197, 197);
+}
+
+.www{
+    width: 10%;
+    text-align: center;
+    color:rgb(197, 197, 197);
+    font-size: 18px;
+    font-family: 'Montserrat UltraLight';
+}
+
+/*
+========================================================================================================
+*/
+@font-face {
+    font-family: "LATO Regular";
+    src: url("../../fonts/LATO/Lato-Regular.ttf");
+  }
+
+.outer-container{
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 58%;
+    height: 210px;
+    border: 1px solid rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.inner-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table-cell{
+    color:rgb(197, 197, 197);
+    width: 30%;
+    text-align: center;
+}
+
+.table-hor{
+    width: calc((100% - 8*8px)/4);
+    height: 1px;
+    background-color: rgb(197, 197, 197);
+    margin: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.table-vert{
+    height: 80%;
+    background-color: rgb(197, 197, 197);
+    padding: 0;
+    margin: 0;
+    width: 1px;
+    border: 0;
+}
+
+.up-line{
+    position: relative;
+    top: calc(10% - 4px);
+}
+
+.down-line{
+    position: relative;
+    top: calc(4px - 10%);
+}
+
+.unv-line{
+    background-color: white;
+}
+
+.table-text{
+    font-size: 16px;
+    font-family: 'LATO Regular';
+}
