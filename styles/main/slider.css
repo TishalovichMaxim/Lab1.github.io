@@ -1,0 +1,118 @@
+@font-face {
+    font-family: LatoLight; 
+    src: url('../../fonts/LATO/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: LatoBold; 
+    src: url('../../fonts/LATO/Lato-Bold.ttf');
+} 
+
+/*==================================================================================================*/
+
+#rdbtn2:checked~.quote-container {
+    background-image: url(../../images/main/roy-mustang.png);
+}
+
+#rdbtn2:checked~.quote-container .quote::before {
+    content: '“The world isn’t perfect. But it’s there for us, doing the best it can…\a that’s what makes it so damn beautiful.”';
+}
+
+#rdbtn2:checked~.quote-container .quote-author::before, #rdbtn2:checked~.quote-container .after-quote-separator::before {
+    content: 'Roy Mustang';
+}
+
+#rdbtn3:checked~.quote-container {
+    background-image: url(../../images/main/one-punch-man.jpg);
+}
+
+#rdbtn3:checked~.quote-container .quote::before {
+    content: '“If you really want to be strong…\a Stop caring about what your surrounding thinks of you!”';
+}
+
+#rdbtn3:checked~.quote-container .quote-author::before, #rdbtn3:checked~.quote-container .after-quote-separator::before {
+    content: 'Saitama';
+}
+
+.radio-button:hover{
+    background-color: white;
+}
+
+.radio-button{
+    appearance: none;
+    border-radius: 50%;
+    position: relative;
+    border: 1px white solid;
+    background-color: 0, 0, 0, .5;
+    margin: 0;
+    padding: 0;
+    width: 11px;
+    height: 11px;
+    z-index: 3;
+    left: 51%;
+    top: calc(150px);
+    margin-right: 12px;
+}
+
+/*==================================================================================================*/
+
+.quote-container{
+    width: 100%;
+    height: 215px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/main/Comments\ BG\ Photo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.quote::before{
+    content:'“Suspendisse tempor turpis odio, sit amet cursur leo consequat non. Maecenas lacinia faucibus enimqui\ainterdum dolor pulvinar vitae.”';
+}
+
+.quote{
+    text-align: center;
+    color: white;
+    white-space: pre;
+    font-family: 'LatoLight';
+    font-size: 22px;
+}
+
+.quote-author-block{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quote-separator{
+    opacity: 80%;
+    font-size: 24px;
+    color: rgb(178, 187, 195);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.quote-author::before{
+    content: 'John Doe';
+}
+
+.quote-author{
+    color: white;
+    font-family: 'LatoBold';
+    font-size: 26px;
+}
+
+.after-quote-separator::before{
+    content: 'John Doe';
+}
+
+.after-quote-separator{
+    font-size: 26px;
+    font-family: 'LatoBold';
+    opacity: 0;
+}
+
+/*====================================================================================================*/
