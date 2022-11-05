@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "LATO Medium";
+    src: url("../../fonts/LATO/Lato-Medium.ttf");
+  }
+
+.ghost-host-img{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    border-style: solid;
+    border-width: 0 0 0 0;
+    border: 0 0 0 0;
+}
+
+.ref-block-container{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: min-content;
+    width: 70%;
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border-width: 0 0 2px 0;
+    border-color: rgb(45, 46, 47);
+    border-style: solid;
+}
+
+.ref-block:hover, .last-ref-block:hover{
+    border-color: white;
+}
+.ref-block{
+    font-family: 'LATO Medium';
+    text-align: center;
+    width: 6%;
+    position: relative;
+    bottom: -2px;
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    margin: 0 0 0 0;
+    padding: 34px 0 34px 0;
+    margin: 0 34px 0 34px;
+    border-width: 0 0 2px 0;
+    border-color: transparent;
+}
+
+.last-ref-block{
+    font-family: 'LATO Medium';
+    text-align: center;
+    width: 6%;
+    position: relative;
+    bottom: -2px;
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    margin: 0 0 0 0;
+    padding: 34px 0 34px 0;
+    margin: 0 0 0 34px;
+    border-width: 0 0 2px 0;
+    border-color: transparent;
+}
