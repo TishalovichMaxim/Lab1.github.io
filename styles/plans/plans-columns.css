@@ -188,53 +188,29 @@
     text-align: left;
 }
 
-.num_1 {
+.plan_stat {
     display: block;
     margin-top: 18px;
 }
 
-.num_2 {
-    display: block;
-    margin-top: 20px;
-}
-
-.num_3 {
-    display: block;
-    margin-top: 20px;
-}
-
-.num_4 {
-    display: block;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-.num_5 {
-    display: block;
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-
-
-.tail_1 {
+.plan_selection {
     display: block;
     margin-top: 455px;
-    margin-left: 72px;
+    margin-left: 72.5px;
     width: 105px;
     height: 65px;
     position: absolute;
 }
 
-.per_month {
+.plan_month_payment {
     display: block;
     width: 105px;
     height: 30px;
     position: absolute;
 }
 
-.dollar_1 {
-    left: 28px;
+.dollar_sign {
+    left: 27.5px;
     font-size: 14px;
     font-weight: bold;
     font-family: 'MyLato', sans-serif;
@@ -245,7 +221,7 @@
     margin-top: 4px;
 }
 
-.amount_1 {
+.plan_price {
     position: absolute;
     left: 37px;
     font-size: 26px;
@@ -256,9 +232,9 @@
     display: block;
 }
 
-.per_1 {
+.month_sign {
     position: absolute;
-    left: 67px;
+    left: 67.5px;
     font-size: 11px;
     font-weight: bold;
     font-family: 'MyLato', sans-serif;
@@ -408,26 +384,6 @@
     background-color: #1abc9c;
 }
 
-
-
-#border_3_1 {
-    background-color: #f85f40;
-    top: 0.1px;
-    height: 5.3px;
-    left: 0.5px;
-    z-index: 5;
-}
-
-
-#border_3_2 {
-    background-color: #f85f40;
-    margin: 0px;
-    top: 65px;
-    left: 97px;
-    width: 5px;
-    height: 5px;
-    z-index: 5;
-}
 
 * {
     box-sizing: border-box;
