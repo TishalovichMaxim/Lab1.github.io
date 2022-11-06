@@ -244,11 +244,11 @@
     margin-top: 14px;
 }
 
-.tail_line_1 {
+.selection_line {
     background-color: #f9d423;
     position: absolute;
     width: 105px;
-    height: 3px;
+    height: 3.3px;
     display: block;
     margin-top: 34px;
 }
@@ -283,10 +283,6 @@
 }
 
 
-#feature_nums_2 {
-    margin-left: 198px;
-}
-
 #num_4_2 {
     margin-left: 18px;
     color: #7f8c8d;
@@ -309,9 +305,6 @@
     color: #7f8c8d;
 }
 
-#tail_line_2 {
-    background-color: #7f8c8d;
-}
 
 
 
@@ -322,10 +315,6 @@
 #diamond {
     color: #1abc9c;
     margin-left : 1px;
-}
-
-#feature_nums_3 {
-    margin-left: 198px;
 }
 
 #num_4_3 {
@@ -350,10 +339,6 @@
     color: #f85f40;
 }
 
-#feature_nums_4 {
-    margin-left: 198px;
-}
-
 #num_4_4 {
     margin-left: 18px;
     color: #1abc9c;
@@ -376,13 +361,6 @@
     color: #1abc9c;
 }
 
-#tail_line_3 {
-    background-color: #f85f40;
-}
-
-#tail_line_4 {
-    background-color: #1abc9c;
-}
 
 
 * {
