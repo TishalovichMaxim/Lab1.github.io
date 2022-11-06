@@ -253,7 +253,7 @@
     margin-top: 34px;
 }
 
-.selection_1 {
+.select_text {
     font-size: 14px;
     font-family: 'MyLato';
     color: #282828;
@@ -263,23 +263,6 @@
     position: absolute;
     margin-top: 49px;
     margin-left: 3px;
-}
-
-#normal_package {
-    margin-left: 55px;
-}
-
-#big_package {
-    margin-left: 78px;
-}
-
-#biggest_package {
-    margin-left: 57px;
-}
-
-#half_star {
-    color: #7f8c8d;
-  
 }
 
 
@@ -308,14 +291,7 @@
 
 
 
-#star {
-    color: #f85f40;
-}
 
-#diamond {
-    color: #1abc9c;
-    margin-left : 1px;
-}
 
 #num_4_3 {
     margin-left: 18px;
