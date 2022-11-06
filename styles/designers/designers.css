@@ -1,0 +1,107 @@
+.jonnyDoe {
+    background: url('../../images/designers/Jonny_Doe.png') center no-repeat;
+    background-size: cover;
+}
+
+.johnDoe {
+    background: url('../../images/designers/John_Doe.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.johnathanDoe {
+    background: url('../../images/designers/Johnathan_Doe.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.designer_link {
+    color: rgb(198, 198, 198);
+    transition: color 0.11s linear;
+}
+
+.designer_link:hover {
+   color: rgb(31, 136, 186);
+}
+
+.designers_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 520px;
+    padding-right: 100px;
+    border-right: 2.5px dashed rgb(215, 215, 215);
+}
+
+.designers_title {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.designers_text_decsription {
+    color: rgb(198, 198, 198);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.designers_team {
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.designer {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.designer_icon {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 52%;
+    border: 4.5px solid rgb(229, 229, 229);
+}
+
+.designer_name {
+    text-align: center;
+    font-size: 17.5px;
+    font-weight: 700;
+}
+
+.work_appointment {
+    text-align: center;
+    font-size: 17.5px;
+    font-weight: 400;
+    color: rgb(198, 198, 198);
+}
+
+.designer_links_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'MyLato';
+    src: url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap') format('woff'), url('https://fonts.googleapis.com/css2?family=Lato:wght@100;250;350;650;850&display=swap') format('woff2'), url('https://fonts.googleapis.com/css2?family=Lato:wght@100;250;350;650;850&display=swap') format('woff'), url('https://fonts.googleapis.com/css2?family=Lato:wght@100;250;350;650;850&display=swap') format('truetype');
+}
+
+.designers_container {
+    font-family: 'MyLato', sans-serif;
+    display: flex;
+    height: 390px;
+    width: 1200px;
+    border-top: 2.5px dashed rgb(215, 215, 215);
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+
