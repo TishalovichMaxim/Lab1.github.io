@@ -265,79 +265,21 @@
     margin-left: 3px;
 }
 
+.plan_num_margin{
+    margin:18px;
+}
 
-#num_4_2 {
-    margin-left: 18px;
+.second_plan_nums {
     color: #7f8c8d;
 }
 
-#num_5_2 {
-    margin-left: 18px;
-    color: #7f8c8d;
-}
-
-#num_3_2 {
-    color: #7f8c8d;
-}
-
-#num_2_2 {
-    color: #7f8c8d;
-}
-
-#num_1_2 {
-    color: #7f8c8d;
-}
-
-
-
-
-
-
-#num_4_3 {
-    margin-left: 18px;
+.third_plan_nums {
     color: #f85f40;
 }
 
-#num_5_3 {
-    margin-left: 18px;
-    color: #f85f40;
-}
-
-#num_1_3 {
-    color: #f85f40;
-}
-
-#num_2_3 {
-    color: #f85f40;
-}
-
-#num_3_3 {
-    color: #f85f40;
-}
-
-#num_4_4 {
-    margin-left: 18px;
+.fourth_plan_nums {
     color: #1abc9c;
 }
-
-#num_5_4 {
-    margin-left: 18px;
-    color: #1abc9c;
-}
-
-#num_1_4 {
-    color: #1abc9c;
-}
-
-#num_2_4 {
-    color: #1abc9c;
-}
-
-#num_3_4 {
-    color: #1abc9c;
-}
-
-
 
 * {
     box-sizing: border-box;
