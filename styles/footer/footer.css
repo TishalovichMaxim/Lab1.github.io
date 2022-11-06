@@ -1,0 +1,219 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../../fonts/LATO/Lato-Light.ttf");
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main {
+	position: relative;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services {
+	display: flex;
+	justify-content: center;
+	height: 342px;
+	width: 100%;
+}
+
+.service {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 85px 0;
+	width: 222px;
+	margin-right: auto;
+}
+
+.service_icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.service_title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: lato;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.service_subtitle {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: rgb(137, 137, 137);
+	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#lightning_img {
+	background-color: rgb(241, 196, 15);
+}
+
+#comment_img{
+	background-color: rgb(241, 84, 15);
+}
+
+#cloud_img{
+	background-color: rgb(15, 175, 241);
+}
+
+#arrows_img{
+	background-color: rgb(149, 165, 166);
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	background-color: rgb(42, 42, 42);
+	width: 100%;
+	height: 295px;
+}
+
+.footer_head {
+	display: flex;
+	height: 75px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(74, 74, 74);
+}
+
+.footer_main {
+	height: 220px;
+	display: flex;
+	align-items: center;
+	padding: 54px 0;
+}
+
+.footer_info {
+	height: 100%;
+	width: 380px;
+	border-right: 1px solid rgb(74, 74, 74);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 15px;
+	font-weight: 300;
+	color: rgb(104, 104, 104);	
+	padding-right: 80px;
+	line-height: 1.7;
+}
+
+.footer_info_designer {
+	font-weight: 700;
+}
+
+.footer_preferences {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 500px;
+	padding: 0 72px 0 103px;
+}
+
+.footer_preference {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 135px;
+}
+.footer_element {
+	display: flex;
+	list-style-type: none;
+}
+.footer_element::before {
+	color: rgb(104, 104, 104);
+	font-family: FontAwesome;
+	content: "\f105";
+	transition: all 0.s linear;
+	margin-right: 8px;
+}
+
+.footer_drop_option {
+	color: rgb(104, 104, 104);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  transition: all 0.2s linear;
+}
+
+.footer_drop_option:hover {
+	box-sizing: content-box;
+	padding-left: 8px;
+	color: rgb(224, 224, 224);
+}
+
+.footer_element:hover:before{
+	color:rgb(224, 224, 224);
+}
+
+.footer_contacts {
+	width: 340px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-weight: 300;
+	color: rgb(104, 104, 104);
+	border-left: 1px solid rgb(74, 74, 74);
+	padding-left: 84px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.footer_adress{
+	line-height: 1.8;
+}
+
+.footer_contact_icon {
+	color: rgb(104, 104, 104);
+	margin-right: 12px;
+}
+
+.footer_contant_phone {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.footer_links {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.footer_link {
+	color: rgb(104, 104, 104);
+	margin-right: 45px;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;
+}
+
+.footer_link:hover {
+	color: rgb(224, 224, 224);
+}
