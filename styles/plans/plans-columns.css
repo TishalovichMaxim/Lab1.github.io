@@ -159,7 +159,7 @@
 
 
 
-.features_text_1 {
+.plan_stats {
     font-size: 16px;
     font-family: 'MyLato', sans-serif;
     color: #b9b9b9;
@@ -176,7 +176,7 @@
 }
 
 
-.feature_nums_1 {
+.plan_stats_nums {
     position: absolute;
     display: block;
     width: 20px;
