@@ -3,11 +3,6 @@
 	src: url("../../fonts/LATO/Lato-Light.ttf");
 }
 
-* {
-	box-sizing: border-box;
-}
-
-
 .services {
 	display: flex;
 	height: 342px;
@@ -132,11 +127,15 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 	width: 135px;
+	margin: 0;
+	padding: 0;
 }
+
 .footer_element {
 	display: flex;
 	list-style-type: none;
 }
+
 .footer_element::before {
 	color: rgb(104, 104, 104);
 	font-family: FontAwesome;
